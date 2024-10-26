@@ -472,7 +472,7 @@ Disassembly of section .text:
 
 000000000000167d <phase_3>:
     167d:	f3 0f 1e fa          	endbr64 
-    1681:	48 83 ec 18          	sub    $0x18,%rsp
+    1681:	48 83 ec 18          	sub    $0x18,%rsp \\ makes the stack 24 bytes
     1685:	64 48 8b 04 25 28 00 	mov    %fs:0x28,%rax
     168c:	00 00 
     168e:	48 89 44 24 08       	mov    %rax,0x8(%rsp)
